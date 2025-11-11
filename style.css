@@ -1,4 +1,4 @@
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -101,6 +101,8 @@ a:active {
     h1 {
         font-size: 3em;
         margin: 60px 0 70px 0;
+        border-radius: 10px;
+        border-style: radius;
     }
     
     h2 {
@@ -109,4 +111,14 @@ a:active {
     }
 }
 
-    
+    header{
+        border:#667eea; 
+        border-radius: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 15px;
+        background-color: #764ba2;
+        color:#ffffff; 
+    }
