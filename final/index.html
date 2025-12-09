@@ -6,7 +6,21 @@
     <title>Final Project - Jamieson Vincent</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
-    
+    <style>
+        .header-box,
+        .sidebar-section,
+        .section-box {
+            border: none !important;
+            border-radius: 0 !important;
+            margin-bottom: 0 !important;
+        }
+        .row {
+            margin-bottom: 0 !important;
+        }
+        .mb-3 {
+            margin-bottom: 0 !important;
+        }
+    </style>
 </head>
 <body>
     <!-- Begin Nav Bar -->
@@ -41,7 +55,7 @@
 
     <!-- Responsive Layout -->
 
-     <div class="container-fluid px-4">
+     <div class="container-fluid p-0">
         <!-- Header Section - Full Width -->
         <div class="row">
             <div class="col-12">
@@ -52,7 +66,7 @@
         </div>
 
         <!-- Main Content Layout -->
-        <div class="row">
+        <div class="row g-0">
             <!-- Sidebar - Shows on mobile as stacked, hidden on desktop -->
             <div class="col-12 d-lg-none mb-4">
                 <div class="sidebar-section">
@@ -76,7 +90,7 @@
             <!-- Desktop Layout - Hidden on mobile -->
             <div class="col-12 d-none d-lg-block">
                 <!-- Image and Text Row -->
-                <div class="row mb-3">
+                <div class="row g-0">
                     <div class="col-lg-6">
                         <div class="section-box">
                             <h3>Image</h3>
@@ -90,7 +104,7 @@
                 </div>
 
                 <!-- Text Full Width -->
-                <div class="row mb-3">
+                <div class="row g-0">
                     <div class="col-12">
                         <div class="section-box" style="min-height: 200px;">
                             <h3>Text Full width</h3>
