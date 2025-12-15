@@ -92,6 +92,12 @@ img:hover {
     justify-content: center;
     box-shadow: none;
 }
+
+/* Light background for better contrast on visualizations */
+.section-box-light {
+    background: rgba(216, 200, 240, 0.6) !important;
+}
+
 .section-box h3 {
     color: #ffffff;
     font-weight: 600;
